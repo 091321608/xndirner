@@ -242,7 +242,7 @@ export class AppComponent {
 //   }else {return false;}
 // }
 // console.log(count);
-var arr = [7,8,9,4,5,6];
+var arr = [7,8,9,4,77,6];
 var count = 0;
 for (var i = 0; i < arr.length; i++) {
   if (arr[i] % 2 == 0)
