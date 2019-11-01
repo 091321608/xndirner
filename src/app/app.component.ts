@@ -234,21 +234,67 @@ export class AppComponent {
 ///////////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////207//////////////////////////////////////////////
-// let str = "785628";
-// let count = 0;
-// for (let i = 0; i < str.length; i++) {
-//   if (str[i] == "2"){
-//     return true;
-//   }else {return false;}
+// let arr = [1, 8, 5, 3, 7];
+// let flag = false;
+//
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] == 2) {
+//     flag = true;
+//     break;
+//   }
 // }
-// console.log(count);
-var arr = [7,8,9,4,77,6];
-var count = 0;
-for (var i = 0; i < arr.length; i++) {
-  if (arr[i] % 2 == 0)
-    count++;
-}
-console.log(count);
+//
+// if (flag === true) console.log('true');
+// else console.log('false');
+//////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////208/////////////////////////////////////////
+// let str = "11181";
+// let flag = true;
+// for (let i = 0; i < str.length; i++) {
+//
+//   if (str[0]!=str[i]) {
+//     flag = false;
+//     break;
+//   }
+// }
+// console.log(flag);
+//////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////209///////////////////////////////////////////
+// let arr = [2, 4, 1, 8, 4];
+// let flag = false;
+//
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] % 2 != 0) {
+//     flag = true;
+//     break;
+//   }
+// }
+// if (flag === true) console.log('true');
+// else console.log('false');
+////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////210/////////////////////////////////////////////
+// let arr = [2,9,3,8,2];
+// let sum = 0;
+// let sum1 = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i]%2 == 0) {
+//     sum += arr[i]
+//   }
+//   if (arr[i]%2 != 0) {
+//     sum1 += arr[i]
+//   }
+// }
+// console.log(sum);
+// console.log(sum1);
+// if (sum === sum1) console.log('true');
+// else console.log('false');
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+
 
 
 
