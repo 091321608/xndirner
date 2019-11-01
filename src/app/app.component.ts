@@ -293,6 +293,83 @@ export class AppComponent {
 // else console.log('false');
 /////////////////////////////////////////////////////////////////////////////////////
 
+//////////////////////////////////////211////////////////////////////////////////////
+// let arr = [1, -2, 3, 4, -5, -6, 7, 8, -9];
+// let sum = 0;
+// let Newarr = [];
+// for (let i = 0; i < arr.length; i++) {
+//   if(arr[i] > 0) {
+//     sum += arr[i];
+//     Newarr.push(arr[i]);
+//   }
+// }
+// console.log(sum);
+// console.log(Newarr.length);
+// let res = sum/Newarr.length;
+// console.log(res);
+//////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////212/////////////////////////////////////////
+// let arr = [1, -2, 3, 4, -5, -6, 7, 8, -9];
+// let sum = 1;
+// let sum1 = 1;
+// let Newarr = [];
+// for (let i = 0; i < arr.length; i++) {
+//   if(arr[i] > 0) {
+//     sum *= arr[i];
+//     Newarr.push(arr[i]);
+//   }
+// }
+// for (let i =1; i < Newarr.length + 1; i++){
+//   sum1 *= i;
+// }
+// console.log(sum);
+// console.log(sum1);
+// let res = sum/sum1;
+// console.log(res);
+/////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////213//////////////////////////////////////////////
+// let arr = [1, -2, 3, 4, -5, -6, 7, 8, -9, -2];
+// let sum = 1;
+// let sum1 = 1;
+// let Newarr = [];
+// for (let i = 0; i < arr.length; i++) {
+//   if(arr[i] < 0) {
+//     sum *= arr[i];
+//     Newarr.push(arr[i]);
+//   }
+// }
+// for (let i =1; i < Newarr.length + 1; i++){
+//   sum1 *= i;
+// }
+// console.log(sum);
+// console.log(sum1);
+// let res = sum/sum1;
+// console.log(res);
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////214////////////////////////////////////////////////
+// let arr = [1, -2, 3, 4, -5, -6, 7, 8, -9];
+// let sum = 0;
+// let Newarr = [];
+// for (let i = 0; i < arr.length; i++) {
+//   if(arr[i] < 0) {
+//     sum += arr[i];
+//     Newarr.push(arr[i]);
+//   }
+// }
+// console.log(sum);
+// console.log(Newarr.length);
+// let res = sum/Newarr.length;
+// console.log(res);
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
 
 
 
